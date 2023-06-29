@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"
+  />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta
+    name="apple-mobile-web-app-status-bar-style"
+    content="black-translucent"
+  />
+  <meta name="application-name" content="Title" />
+  <meta name="msapplication-tooltip" content="Description" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <meta name="copyright" content="(c)" />
+  <meta http-equiv="Reply-to" content="" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230629102148" />
+  <title>T.R.A.N.S.L.I.T</title>
+</head>
+
+  <body>
+    <div class="_container">
+      <main class="main">
+        <h1 class="main__title">T.R.A.N.S.L.I.T.</h1>
+        <form class="form">
+          <input
+            class="form__input"
+            type="text"
+            placeholder="Начните вводить текст"
+            required
+          />
+          <input
+            class="btn_add btn"
+            type="submit"
+            value="Добавить"
+            name="add"
+          />
+        </form>
+        <div class="table">
+          <ul class="table__column _rus" count="1">
+            <li class="table__item table__item_first _rus">
+              <p class="item__text">
+                <span class="number">1</span>
+                <span>Привет👋</span>
+                <span class="popup">Привет</span>
+              </p>
+              <button class="icon_item icon" disabled>
+                <img src="./img/close-btn.svg" alt="closed" />
+              </button>
+            </li>
+          </ul>
+          <ul class="table__column _en">
+            <li class="table__item table__item_first _en">
+              <p class="item__text">
+                <span class="number">1</span>
+                <span>Privet</span>
+                <span class="popup">Privet</span>
+              </p>
+              <button class="icon_item icon" disabled>
+                <img src="./img/close-btn.svg" alt="closed" />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <button class="btn btn_clear">
+          <div class="icon_btn icon">
+            <img src="./img/close-btn.svg" alt="" />
+          </div>
+          <p>Очистить всё</p>
+        </button>
+      </main>
+    </div>
+    <script src="js/app.min.js?_v=20230629102148"></script>
+  </body>
+</html>
